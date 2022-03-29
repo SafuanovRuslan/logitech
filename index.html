@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="logo" id="logo">
+            <a href="#"></a>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">БЕЗ ПРОВОДОВ</a></li>
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">ЗА ЛЮБЫМ СТОЛОМ</a></li>
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ<br>УСТРОЙСТВ</a></li>
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">С ИНДИВИДУАЛЬНЫМИ<br>НАСТРОЙКАМИ</a></li>
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">БЫСТРЕЕ,<br>ЧЕМ КОГДА-ЛИБО</a></li>
+                <li class="mobile-nav__element"><a href="#" class="mobile-nav__link">КОМФОРТНО.<br>ЭРГОНОМИЧНО. ИНТУИТИВНО.</a></li>
+            </ul>
+        </nav>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__element"><a href="#" class="nav__link">РАБОТАЙТЕ БЕЗ ПРОВОДОВ</a></li>
+                <li class="nav__element"><a href="#" class="nav__link">ГДЕ УГОДНО</a></li>
+                <li class="nav__element"><a href="#" class="nav__link">С КОМФОРТОМ</a></li>
+                <li class="nav__element"><a href="#" class="nav__link">С РАЗНЫХ УСТРОЙСТВ</a></li>
+                <li class="nav__element"><a href="#" class="nav__link">В ЛЮБОЕ ВРЕМЯ</a></li>
+                <li class="nav__element"><a href="#" class="nav__link">И ЕЩЕ БЫСТРЕЕ</a></li>
+            </ul>
+        </nav>
+        <svg id="burger" class="burger-button" onclick="openMenu()" width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.5 18L0.5 18M30.5 10.1311L0.500007 10.1311M30.5 2.2623L0.500038 2.2623" stroke="#2F3132" stroke-width="4"/>
+        </svg>
+        <svg id="cross" class="cross-button" onclick="closeMenu()" width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.2393 32.2392L10.6068 10.6067M10.8167 32.0296L32.0299 10.8164" stroke="white" stroke-width="4"/>
+        </svg>            
+    </header>
+    <section class="section section_work">
+        <div class="illustration illustration_work">
+            <h1>РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h1>
+        </div>
+        <p class="text text_work">Создана для эффективной работы, программирования и творчества</p>
+        <svg class="icon__work" width="42" height="22" viewBox="0 0 42 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L20.6552 21L40.3103 1" stroke="#FF2947" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+    </section>
+    <section class="section section_wireless">
+        <svg class="icon__bluetooth" width="18" height="34" viewBox="0 0 18 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.6858 24.8216L10.6287 16.9999L17.6858 9.17916C17.9075 8.93286 18.0206 8.60468 17.9969 8.27192C17.9733 7.93882 17.8161 7.63003 17.5612 7.41826L8.98225 0.27754C8.62269 -0.0218854 8.12554 -0.0847721 7.70464 0.116904C7.28373 0.317716 7.0155 0.746169 7.0155 1.21725V12.9959L2.09065 7.53726C1.64323 7.04108 0.88199 7.00615 0.391728 7.45937C-0.0985325 7.91259 -0.133045 8.68224 0.314764 9.17883L7.0155 16.6057V17.3944L0.31483 24.8216C-0.133373 25.3174 -0.0988606 26.0875 0.391794 26.5411C0.882449 26.9947 1.64297 26.9597 2.09071 26.4628L7.01517 21.0049V32.7828C7.01517 33.2534 7.28379 33.6822 7.70431 33.8835C7.86788 33.9614 8.04346 34 8.21786 34C8.49166 34 8.76265 33.9058 8.98232 33.7233L17.5612 26.5824C17.8161 26.3703 17.9733 26.0615 17.9969 25.7288C18.0205 25.3961 17.9083 25.0678 17.6858 24.8216ZM9.42081 3.79435L15.0552 8.48375L9.42081 14.7287V3.79435ZM9.42081 30.2056V19.2716L15.0552 25.5162L9.42081 30.2056Z" fill="#C4C4C4"/>
+        </svg>
+        <h1>БЕЗ ПРОВОДОВ</h1>
+        <p class="text text_wireless">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
+        <p class="wireless__time"><span class="wireless__time_up">70</span> <span class="wireless__time_down">дней</span></p>
+        <div class="illustration illustration_wireless">
+        </div>
+    </section>
+    <section class="section section_surface">
+        <h1>ЗА ЛЮБЫМ СТОЛОМ</h1>
+        <p class="text text_surface">Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.</p>
+        <div class="info">
+            <div class="info__box">
+                <h1 class="info__heading">В 5 РАЗ</h1>
+                <p class="text info__text">точнее предшественников</p>
+            </div>
+            <div class="info__box">
+                <h1 class="info__heading">4 000</h1>
+                <p class="text info__text">точек на дюйм чувствительность датчика</p>
+            </div>
+        </div>
+        <div class="slider-1">
+            <div class="slider-1__images" id="slider-1">
+                <div class="illustration illustration_surface illustration_surface-wood" id="slider-1_0">
+                </div>
+                <div class="illustration illustration_surface illustration_surface-wood illustration_active" id="slider-1_1">
+                </div>
+                <div class="illustration illustration_surface illustration_surface-glass" id="slider-1_2">
+                </div>
+                <div class="illustration illustration_surface illustration_surface-linoleum" id="slider-1_3">
+                </div>
+                <div class="illustration illustration_surface illustration_surface-cloth" id="slider-1_4">
+                </div>
+                <div class="illustration illustration_surface illustration_surface-marble" id="slider-1_5">
+                </div>
+            </div>
+            <h2 class="slider-1__heading">Переключите поверхность</h2>
+            <div class="slider-1__buttons" onclick="changeSurface()">
+                <svg id="slider-1_left-button" width="13" height="21" viewBox="0 0 13 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.1485 1.099L2 10.2475L11.1485 19.396" stroke="#2F3132" stroke-width="3" stroke-linejoin="round"/>
+                </svg>
+                <img id="button-1_1" class="slider-1__button" src="img/slider_1_buttons/wood-texture.jpg" alt="wood">
+                <img id="button-1_2" class="slider-1__button" src="img/slider_1_buttons/glass-texture.jpg" alt="glass">
+                <img id="button-1_3" class="slider-1__button" src="img/slider_1_buttons/linoleum-texture.jpg" alt="linoleum">
+                <img id="button-1_4" class="slider-1__button" src="img/slider_1_buttons/cloth-texture.jpg" alt="cloth">
+                <img id="button-1_5" class="slider-1__button" src="img/slider_1_buttons/marble-texture.jpg" alt="marble">
+                <svg id="slider-1_right-button" width="13" height="21" viewBox="0 0 13 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.85149 1.099L11 10.2475L1.85149 19.396" stroke="#2F3132" stroke-width="3" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+        <p class="text text_wireless">Благодаря технологии Logitecch Darkfierd, MX Master 3 работает на любой поверхности, даже на стекле.</p>
+    </section>
+    <section class="section section_multi-devices">
+        <h1 class="multi-devices__heading">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h1>
+        <p class="text text_multi-devices">С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно
+            переключаясь между разными операционными системами — даже между Windows® и macOS.
+            Например, достаточно скопировать текст, изображение или файл на MacBook и переместить его
+            на Windows PC без задержек.</p>
+        <p class="text text_multi-devices">Клавиатура MX Keys отслеживает перемещение курсора мыши MX Master 3, благодаря чему ваш
+            текст появится там, где вы работаете в текущий момент.</p>
+        <ol class="steps">
+            <li class="steps__element">Нажмите и удерживайте папку, чтобы переместить её</li>
+            <li class="steps__element">Перенесите папку на любой из соседних экранов</li>
+            <li class="steps__element">Да, всё так просто!</li>
+        </ol>
+    </section>
+    <section class="section section_settings">
+        <h1 class="settings__heading">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h1>
+        <p class="text text_settings">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
+            индивидуальным настройкам, вы сможете настроить кнопки и жесты практически
+            под любое используемое приложение.</p>
+        <div class="slider-2">
+            <div class="slider-2__images" id="slider-2">
+                <div class="illustration illustration_settings illustration_settings-1 settings_active" id="slider-2_1">
+                </div>
+                <div class="illustration illustration_settings illustration_settings-2" id="slider-2_2">
+                </div>
+                <div class="illustration illustration_settings illustration_settings-3" id="slider-2_3">
+                </div>
+                <div class="illustration illustration_settings illustration_settings-4" id="slider-2_4">
+                </div>
+                <div class="illustration illustration_settings illustration_settings-5" id="slider-2_5">
+                </div>
+                <div class="illustration illustration_settings illustration_settings-6" id="slider-2_6">
+                </div>
+            </div>
+            <div class="slider-2__buttons" id="slider-2__buttons" onclick="changeSettings()">
+                <button class="slider-2__button slider-2__button_active" id="slider-2__button-1"></button>
+                <button class="slider-2__button" id="slider-2__button-2"></button>
+                <button class="slider-2__button" id="slider-2__button-3"></button>
+                <button class="slider-2__button" id="slider-2__button-4"></button>
+                <button class="slider-2__button" id="slider-2__button-5"></button>
+                <button class="slider-2__button" id="slider-2__button-6"></button>
+            </div>
+        </div>
+        <div class="settings-info"></div>
+        <div class="apps">
+            <img src="img/icons-apps.png" alt="apps" class="apps__img">
+            <p class="text text_white">Начните работать продуктивнее с момента покупки — устройство
+                предварительно оптимизировано под популярные приложения
+                на Windows и Mac.</p>
+        </div>
+    </section>
+    <section class="section section_comfortable">
+        <div class="section-box_comfortable">
+            <h1 class="heading_comfortable">КОМФОРТНО.<br>ЭРГОНОМИЧНО. ИНТУИТИВНО.</h1>
+            <p class="text text_comfortable">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
+        </div>
+        <div class="illustration illustration_comfortable">
+        </div>
+    </section>
+    <section class="section section_faster">
+        <div class="section-box_faster">
+            <h1 class="heading_faster">БЫСТРЕЕ,<br>ЧЕМ КОГДА-ЛИБО</h1>
+            <p class="text text_faster">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки
+            со&nbsp;скоростью 1000 строк за 1 секунду.
+            С&nbsp;точностью до пикселя. Бесшумно.</p>
+        </div>
+        <div class="illustration illustration_faster">
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="text text_footer"> Copyright &copy; 2021 Logitech<br>Все права защищены</p>
+        <script src="js/mobile-menu.js"></script>
+        <script src="js/slider-1.js"></script>
+        <script src="js/slider-2.js"></script>
+    </footer>
+</body>
+</html>
